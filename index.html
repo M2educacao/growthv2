@@ -316,8 +316,8 @@ svg text{font-family:var(--font-mono);font-size:10px;fill:var(--muted)}
 </script>
 <script>
 // Chave publicável: pode ficar no código. NUNCA coloque aqui a chave service_role.
-const SB_URL = 'https://yngyghlyonybvfvjcmxl.supabase.co';
-const SB_KEY = 'sb_publishable_I50_7INl88K4nX4rjE7qRQ_Xs_m7Ati';
+const SB_URL = 'https://lvrboqjwswpqesgihkpl.supabase.co';
+const SB_KEY = 'sb_publishable_b8F85H7YQ2nrucy5UhB9MA_ZdMm-Lza';
 function avisoFalha(txt) { document.body.insertAdjacentHTML('afterbegin', `<div role="alert" style="max-width:520px;margin:48px auto;padding:20px;border:1px solid var(--line);border-radius:10px;background:var(--surface)"><b>Não foi possível abrir o Growths.</b><p>${txt}</p></div>`); }
 if (typeof supabase === 'undefined') { avisoFalha('A biblioteca de acesso não carregou. Abra o arquivo index.html direto no navegador (Chrome, Edge ou Safari), não pela pré-visualização do aplicativo.'); throw new Error('supabase indisponível'); }
 const sb = supabase.createClient(SB_URL, SB_KEY);
